@@ -34,7 +34,7 @@ public class WindupLegacyWizardTest
 
     @Deployment
     @Dependencies({
-                @AddonDependency(name = "org.jboss.windup.legacy.application:legacy-windup"),
+                @AddonDependency(name = "org.jboss.windup.legacy.app:windup-legacy-app-addon"),
                 @AddonDependency(name = "org.jboss.forge.addon:ui-test-harness"),
     })
     public static ForgeArchive getDeployment()
@@ -46,7 +46,7 @@ public class WindupLegacyWizardTest
                     .addAsAddonDependencies(
                                 AddonDependencyEntry.create("org.jboss.forge.furnace.container:cdi"),
                                 AddonDependencyEntry.create("org.jboss.forge.addon:ui-test-harness"),
-                                AddonDependencyEntry.create("org.jboss.windup.legacy.application:legacy-windup")
+                                AddonDependencyEntry.create("org.jboss.windup.legacy.app:windup-legacy-app-addon")
                     );
 
         return archive;

@@ -47,7 +47,7 @@ JBoss Forge, version [ 2.4.2-SNAPSHOT ] - JBoss, by Red Hat, Inc. [ http://forge
 +
 [source,text]
 ----
-[bin]$ addon-install --groupId org.jboss.windup.legacy.application --name legacy-windup --version 2.0.0.Alpha1
+[bin]$ addon-install --groupId org.jboss.windup.legacy.app --name windup-legacy-app-addon --version 2.0.0.Alpha1
 ----
 
 5. Run windup-1x via forge. Example:
@@ -73,8 +73,8 @@ localhost:Desktop user$ forge
 JBoss Forge, version [ 2.4.2-SNAPSHOT ] - JBoss, by Red Hat, Inc. [ http://forge.jboss.org ]
 
 [Desktop]$ 
-[Desktop]$ addon-install --groupId org.jboss.windup.legacy.application --name legacy-windup --version 2.0.0.Alpha1
-***SUCCESS*** Addon org.jboss.windup.legacy.application:legacy-windup,2.0.0.Alpha1 was installed successfully.
+[Desktop]$ addon-install --groupId org.jboss.windup.legacy.app --name windup-legacy-app-addon --version 2.0.0.Alpha1
+***SUCCESS*** Addon org.jboss.windup.legacy.app:windup-legacy-app-addon,2.0.0.Alpha1 was installed successfully.
 [Desktop]$ 
 [Desktop]$ 
 [Desktop]$ run-windup-1-x 
