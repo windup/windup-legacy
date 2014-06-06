@@ -8,13 +8,13 @@
         <version>14</version>  
     </parent>
 
-    <groupId>org.jboss.windup</groupId>
-    <artifactId>windup-parent</artifactId>
-    <version>2.0.0-SNAPSHOT</version>
+    <groupId>org.jboss.windup.legacy</groupId>
+    <artifactId>windup-legacy-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     
-    <name>Windup Parent</name>
-    <description>Migration Tools</description>
+    <name>Legacy Windup - Parent</name>
+    <description>The original Windup 0.7.x</description>
 
     <properties>
         <version.furnace>2.5.0.Final</version.furnace>
@@ -22,9 +22,9 @@
         <version.tinkerpop.blueprints>2.5.0</version.tinkerpop.blueprints>
         <version.freemarker>2.3.19</version.freemarker>
 
-        <windup.scm.connection>scm:git:https://github.com/jsight/windup.git</windup.scm.connection>
-        <windup.developer.connection>scm:git:git@github.com:jsight/windup.git</windup.developer.connection>
-        <windup.scm.url>http://github.com/windup/windup</windup.scm.url>
+        <windup.scm.connection>scm:git:https://github.com/windup/windup-legacy.git</windup.scm.connection>
+        <windup.developer.connection>scm:git:git@github.com:windup/windup-legacy.git</windup.developer.connection>
+        <windup.scm.url>http://github.com/windup/windup-legacy</windup.scm.url>
         
         <!-- This keeps javadoc from failing on projects with no actual .java source files -->
         <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
@@ -40,18 +40,9 @@
     </scm>
 
     <modules>
-        <module>graph</module>
-        <module>decompiler</module> <!-- Needed by one the JavaAST... rule in config/api. -->
-        <module>config</module>     <!-- TODO: Break parts of this into rules/app/... -->
-        <module>tests/core</module>
-        <module>utils</module>
-        <module>exec</module>       <!-- TODO: Break this into ext/config-xml and rules/app/... -->
-        <module>reporting</module>
-        <module>ui</module>
-        <module>logging</module>
-        
-        <module>ext/groovy</module>
-        <module>rules</module>
+        <module>server</module>
+        <module>sample-apps</module>
+        <module>application</module>
     </modules>
     
     <build>

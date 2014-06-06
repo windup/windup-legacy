@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jboss.windup.test.apps</groupId>
         <artifactId>sample-apps-parent</artifactId>
-    	<version>2.0.0-SNAPSHOT</version>
+    	<version>1.0.0-SNAPSHOT</version>
     </parent>
     
     <groupId>org.jboss.windup.test.apps.weblogic</groupId>
@@ -41,9 +41,9 @@
             
             <!-- Run Windup over this project, with com.acme stated as customer's package. -->
 			<plugin>
-				<groupId>org.jboss.windup</groupId>
+				<groupId>org.jboss.windup.legacy</groupId>
 				<artifactId>windup-maven-plugin</artifactId>
-                <version>0.7.0</version>
+                <version>1.0.0-SNAPSHOT</version>
 				<configuration>
 					<packages>
 						<package>com.acme</package>
