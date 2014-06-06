@@ -41,8 +41,8 @@
 
     <modules>
         <module>server</module>
-        <module>sample-apps</module>
         <module>application</module>
+        <module>sample-apps</module>
     </modules>
     
     <build>
