@@ -36,17 +36,21 @@
     </build>
 
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.jboss.forge</groupId>
+                <artifactId>forge-bom</artifactId>
+                <version>${version.forge}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
 
         <!-- Forge -->
-        <dependency>
-            <groupId>org.jboss.forge</groupId>
-            <artifactId>forge-bom</artifactId>
-            <version>${version.forge}</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
-
         <dependency>
             <groupId>org.jboss.forge.furnace.container</groupId>
             <artifactId>cdi</artifactId>
