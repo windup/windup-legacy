@@ -17,7 +17,7 @@
         <plugins>
             <plugin>
                 <groupId>org.jboss.windup.legacy</groupId>
-                <artifactId>windup-maven-plugin</artifactId>
+                <artifactId>windup-legacy-maven-plugin</artifactId>
                 <configuration>
                     <packages>
                         <package>org.jboss.windup</package>

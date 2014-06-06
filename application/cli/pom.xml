@@ -6,7 +6,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cli</artifactId>
+    <artifactId>windup-legacy-cli</artifactId>
     <name>Legacy Windup - Application - CLI</name>
     <description>Command Line Interface for JBoss Windup.</description>
 
@@ -62,7 +62,7 @@
     <dependencies>
         <dependency>
             <groupId>org.jboss.windup.legacy.application</groupId>
-            <artifactId>windup-reporting</artifactId>
+            <artifactId>windup-legacy-reporting</artifactId>
             <version>${project.version}</version>
         </dependency>
 

@@ -33,17 +33,17 @@
             <!-- Windup ENGINE Dependencies -->
             <dependency>
                 <groupId>org.jboss.windup.legacy.application</groupId>
-                <artifactId>engine</artifactId>
+                <artifactId>windup-legacy-engine</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.windup.legacy.application</groupId>
-                <artifactId>rules</artifactId>
+                <artifactId>windup-legacy-rules</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.windup.legacy.application</groupId>
-                <artifactId>windup-reporting</artifactId>
+                <artifactId>windup-legacy-reporting</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!-- END Windup ENGINE Dependencies -->

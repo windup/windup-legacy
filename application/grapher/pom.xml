@@ -7,7 +7,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>grapher</artifactId>
+    <artifactId>windup-legacy-grapher</artifactId>
     <name>Legacy Windup - Application - Graph</name>
 
     <dependencies>

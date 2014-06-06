@@ -6,18 +6,10 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>windup-reporting</artifactId>
+    <artifactId>windup-legacy-reporting</artifactId>
     <name>Legacy Windup - Application - Reporting</name>
 
     <dependencies>
-        
-        <!-- Moved to root pom. 
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.16</version>
-        </dependency>
-        -->
 
         <dependency>
             <groupId>org.freemarker</groupId>
@@ -70,17 +62,17 @@
 
         <dependency>
             <groupId>org.jboss.windup.legacy.application</groupId>
-            <artifactId>metadata</artifactId>
+            <artifactId>windup-legacy-metadata</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.windup.legacy.application</groupId>
-            <artifactId>engine</artifactId>
+            <artifactId>windup-legacy-engine</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.windup.legacy.application</groupId>
-            <artifactId>rules</artifactId>
+            <artifactId>windup-legacy-rules</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>

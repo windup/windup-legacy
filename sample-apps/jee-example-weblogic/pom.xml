@@ -42,7 +42,7 @@
             <!-- Run Windup over this project, with com.acme stated as customer's package. -->
 			<plugin>
 				<groupId>org.jboss.windup.legacy</groupId>
-				<artifactId>windup-maven-plugin</artifactId>
+				<artifactId>windup-legacy-maven-plugin</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
 				<configuration>
 					<packages>
