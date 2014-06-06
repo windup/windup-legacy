@@ -14,8 +14,9 @@
     <dependencies>
         <dependency>
             <groupId>org.jboss.windup.legacy.app</groupId>
-            <artifactId>windup-legacy-app-parent</artifactId>
+            <artifactId>windup-legacy-app-addon</artifactId>
             <classifier>forge-addon</classifier>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
 
