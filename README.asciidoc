@@ -1,4 +1,6 @@
-== Windup 2.0
+== Windup legacy
+
+This is a legacy project. Development has moved to [Windup 2.0](https://github.com/windup/windup).
 
 Get involved at: http://windup.jboss.org
 
